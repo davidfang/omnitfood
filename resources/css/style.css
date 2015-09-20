@@ -131,7 +131,9 @@ a:active {
 }
 
 /*-------buttons------*/
-.btn:link,.btn:visited {
+.btn:link,
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -142,7 +144,9 @@ a:active {
     transition: background-color 0.3s, border 0.3s ,color 0.3s; /* CSS3 */
 }
 
-.btn-full:link,.btn-full:visited {
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
     /* https://flatuicolors.com/ */
     background-color: #e67e22;
     border: 1px solid #e67e22;
@@ -156,12 +160,16 @@ a:active {
 
 }
 
-.btn:hover,.btn:active {
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
     /* http://www.0to255.com/ */
     background-color: #bf6516;
 }
 
-.btn-full:hover,.btn-full:active {
+.btn-full:hover,
+.btn-full:active {
     /* https://flatuicolors.com/ */
     border: 1px solid #bf6516;
 }
@@ -451,3 +459,39 @@ cite img {
 .plan ul li {
     padding: 5px 0;
 }
+
+/* ----------------------------- */
+/* contact form section */
+/* ----------------------------- */
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid orange;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 5px 5px 5px 0;
+}
+
+*:focus {outline: none}
+
+
+
+
