@@ -16,6 +16,14 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix{zoom:1}
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
 /* ------------------------------------- */
 /* Reusable Components*/
 /* ------------------------------------- */
@@ -240,4 +248,55 @@ header {
     -ms-transform: scale(1.03);
     transform: scale(1.03);
     opacity: 0.9;
+}
+
+/* ----------------------------- */
+/* How it works */
+/* ----------------------------- */
+
+.section-steps {
+    background-color: #eae7e7;
+}
+
+.steps-box:first-child {
+    text-align: right;    /* it works for all the inline elements */
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step div {
+    color: orange;
+    border: 2px solid orange;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 30px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }
