@@ -7,13 +7,15 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: white;
     color: #525252;
     font-family: 'Lato','Arial',sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix{zoom:1}
@@ -185,6 +187,7 @@ input[type=submit]:active {
 
 header {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(img/hero.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);
     background-size: cover;
     background-position: center;
