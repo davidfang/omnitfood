@@ -114,8 +114,8 @@ h2:after {
 }
 
 /* links */
-a:link,
-a:visited {
+.section-cities a:link,
+.section-cities a:visited {
     color: orange;
     text-decoration: none;
     border-bottom: 1px solid orange;
@@ -124,8 +124,8 @@ a:visited {
     transition: border-bottom 0.25s, color 0.25s;
 }
 
-a:hover,
-a:active {
+.section-cities a:hover,
+.section-cities a:active {
     color: #555;
     border-bottom: 1px solid transparent;
 }
@@ -184,7 +184,7 @@ input[type=submit]:active {
 /* ------------------------------------- */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(img/hero.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);
     background-size: cover;
     background-position: center;
@@ -220,9 +220,9 @@ header {
     margin-left: 40px;
 }
 
-.main-nav li a: link,
-.main-nav li a: visited {
-    padding: 8px 0px;
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 4px 0px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -232,8 +232,8 @@ header {
     transition: border-bottom 0.3s;
 }
 
-.main-nav li a: hover,
-.main-nav li a: active {
+.main-nav li a:hover,
+.main-nav li a:active {
     text-decoration: none;
     border-bottom: 2px solid #e67e22;
 }
@@ -469,7 +469,7 @@ cite img {
     border: 1px solid orange;
     padding: 20px 30px;
     border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: #f8f8f8;
 }
 
 input[type=text],
@@ -497,7 +497,7 @@ input[type=checkbox] {
 /* ----------------------------- */
 footer {
     background-color: #333;
-    padding: 50px;
+    padding: 30px;
     font-size: 80%;
 }
 
@@ -525,10 +525,10 @@ footer {
     margin-right: 0;
 }
 
-.footer-nav li a :link,
-.footer-nav li a :visited,
-.social-links li a :link,
-.social-links li a :visited {
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
     text-decoration: none;
     border: 0;
     color: #888;
@@ -536,8 +536,8 @@ footer {
     transition: color 0.2s;
 }
 
-.footer-nav li a :hover,
-.footer-nav li a :active {
+.footer-nav li a:hover,
+.footer-nav li a:active {
     color: #ddd;
 }
 
