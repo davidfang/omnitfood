@@ -1,3 +1,3 @@
 <?php
-    include_once("omnitfood.html");
+    include_once("index.html");
 ?>

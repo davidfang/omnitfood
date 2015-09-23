@@ -55,7 +55,10 @@
     }
 
     h1 { font-size: 180%;}
-    h2 { font-size: 150%;}
+    h2 {
+        font-size: 150%;
+        margin-bottom: 15px;
+    }
 
     .works-steps { margin-bottom: 20px;}
     .works-steps:last-of-type { margin-bottom: 60px;}
@@ -76,6 +79,26 @@
     .col{
         width: 100%;
         margin: 0 0 4% 0;
+    }
+
+    .map-box {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .map {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    .form-box {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-top: 15px;
+        margin-bottom: 10px;
     }
 }
 

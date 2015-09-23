@@ -75,4 +75,21 @@ $(document).ready(function(){
         nav.slideToggle(400);
 
     });
+
+    /* Maps */
+    var map =new GMaps({
+        div: '#map',
+        lat: 25.0568839,
+        lng: 121.5577273,
+        zoom: 12
+    });
+
+    map.addMarker({
+        lat: 25.0568839,
+        lng: 121.5577273,
+        title: 'Lima',
+        infoWindow: {
+            content: '<p>Our TaiPei HQ</p>'
+        }
+    });
 });
