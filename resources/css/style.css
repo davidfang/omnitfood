@@ -1,15 +1,41 @@
-/* line 1, basic.less */
+/* line 1, _basic.less */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* line 7, basic.less */
+/* line 7, _basic.less */
 html {
   background-color: #ffffff;
   color: #555555;
   font-family: 'webfont' !important;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
+}
+/* line 16, _basic.less */
+h1 {
+  margin: 0;
+}
+/* line 20, _basic.less */
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* line 1, _header.less */
+header {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(../img/hero.jpg) center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(../img/hero.jpg) center;
+  background-size: cover;
+  height: 100vh;
+}
+/* line 7, _header.less */
+.hero-text-box {
+  width: 1140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
