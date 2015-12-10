@@ -1,0 +1,15 @@
+/* line 1, basic.less */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* line 7, basic.less */
+html {
+  background-color: #ffffff;
+  color: #555555;
+  font-family: 'webfont' !important;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
