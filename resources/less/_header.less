@@ -4,10 +4,63 @@ header {
    height: 100vh;
 }
 
+h1 {
+   margin: 0;
+   color: @white;
+   font-size: 2.8rem;
+   font-weight: 100;
+   letter-spacing: .15rem;
+}
+
 .hero-text-box {
    width: 1140px;
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
+}
+
+.btn {
+   &:link,
+   &:visited {
+      display: inline-block;
+      margin-top: 1rem;
+      margin-right: .5rem;
+      padding: .5rem 1.5rem;
+      font-weight: 300;
+      text-decoration: none;
+      letter-spacing: .1rem;
+      border-radius: 10rem;
+      color: @white;
+      transition: background-color .2s, color .2s, border .2s;
+   }
+   &:hover,
+   &:active {
+      background-color: @dark-orange;
+   }
+}
+
+.btn-full {
+   &:link,
+   &:visited {
+      background-color: @orange;
+      border: 1px solid @orange;
+   }
+   &:hover,
+   &:active {
+      background-color: @dark-orange;
+   }
+}
+
+.btn-ghost {
+   &:link,
+   &:visited {
+      border: 1px solid @orange;
+      color: @orange;
+   }
+   &:hover,
+   &:active {
+      border: 1px solid @dark-orange;
+      color: @white;
+   }
 }
