@@ -9,7 +9,7 @@ html {
   background-color: #ebebeb;
   color: #555555;
   font-family: 'webfont' !important;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
 }
@@ -17,6 +17,16 @@ html {
 .row {
   max-width: 1140px;
   margin: 0 auto;
+}
+/* line 21, _basic.less */
+section {
+  padding: 4rem 0;
+}
+/* line 25, _basic.less */
+h1,
+h2 {
+  font-weight: 100;
+  letter-spacing: .15rem;
 }
 /* line 1, _header.less */
 header {
@@ -29,11 +39,9 @@ header {
 h1 {
   margin: 0;
   color: #ebebeb;
-  font-size: 2.8rem;
-  font-weight: 100;
-  letter-spacing: .15rem;
+  font-size: 2.5rem;
 }
-/* line 15, _header.less */
+/* line 13, _header.less */
 .hero-text-box {
   width: 1140px;
   position: absolute;
@@ -43,7 +51,7 @@ h1 {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-/* line 24, _header.less */
+/* line 22, _header.less */
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -58,53 +66,53 @@ h1 {
   -webkit-transition: background-color 0.2s, color 0.2s, border 0.2s;
           transition: background-color 0.2s, color 0.2s, border 0.2s;
 }
-/* line 37, _header.less */
+/* line 35, _header.less */
 .btn:hover,
 .btn:active {
   background-color: #cf6d17;
 }
-/* line 44, _header.less */
+/* line 42, _header.less */
 .btn-full:link,
 .btn-full:visited {
   background-color: #e67e22;
   border: 1px solid #e67e22;
 }
-/* line 49, _header.less */
+/* line 47, _header.less */
 .btn-full:hover,
 .btn-full:active {
   background-color: #cf6d17;
 }
-/* line 56, _header.less */
+/* line 54, _header.less */
 .btn-ghost:link,
 .btn-ghost:visited {
   border: 1px solid #e67e22;
   color: #e67e22;
 }
-/* line 61, _header.less */
+/* line 59, _header.less */
 .btn-ghost:hover,
 .btn-ghost:active {
   border: 1px solid #cf6d17;
   color: #ebebeb;
 }
-/* line 68, _header.less */
+/* line 66, _header.less */
 .logo {
   height: 5.5rem;
   width: auto;
   float: left;
   margin-top: 1rem;
 }
-/* line 75, _header.less */
+/* line 73, _header.less */
 .main-nav {
   float: right;
   list-style: none;
   margin-top: 2.5rem;
 }
-/* line 79, _header.less */
+/* line 77, _header.less */
 .main-nav li {
   display: inline-block;
   margin-left: 3rem;
 }
-/* line 82, _header.less */
+/* line 80, _header.less */
 .main-nav li a:link,
 .main-nav li a:visited {
   color: #ebebeb;
@@ -117,8 +125,28 @@ h1 {
   -webkit-transition: border-bottom 0.2s;
           transition: border-bottom 0.2s;
 }
-/* line 93, _header.less */
+/* line 91, _header.less */
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
+}
+/* line 1, _feature.less */
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+/* line 5, _feature.less */
+h2::after {
+  content: '';
+  width: 3rem;
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  margin: 0 auto;
+  margin-top: .5rem;
+}
+/* line 16, _feature.less */
+.long-copy {
+  line-height: 145%;
 }
