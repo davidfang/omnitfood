@@ -158,20 +158,60 @@ h3 {
   line-height: 145%;
   width: 70%;
   margin-left: 15%;
+  margin-bottom: 1rem;
 }
-/* line 28, _feature.less */
+/* line 29, _feature.less */
 .box {
   padding: 1px;
 }
-/* line 30, _feature.less */
+/* line 31, _feature.less */
 .box p {
   font-size: 1rem;
   line-height: 145%;
 }
-/* line 36, _feature.less */
+/* line 37, _feature.less */
 .icon-big {
   font-size: 250%;
   display: block;
   color: #e67e22;
   margin-bottom: 10px;
+}
+/* line 1, _meals.less */
+.section-meals {
+  padding: 0;
+}
+/* line 5, _meals.less */
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+/* line 8, _meals.less */
+.meals-showcase li {
+  float: left;
+  width: 25%;
+}
+/* line 14, _meals.less */
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+/* line 19, _meals.less */
+.meal-photo img {
+  opacity: .7;
+  width: 100%;
+  height: auto;
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: -webkit-transform 0.35s ease-in, opacity 0.35s ease-in;
+          transition: transform 0.35s ease-in, opacity 0.35s ease-in;
+}
+/* line 25, _meals.less */
+.meal-photo img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+          transform: scale(1.03);
 }

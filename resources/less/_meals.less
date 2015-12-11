@@ -1,0 +1,30 @@
+.section-meals {
+   padding: 0;
+}
+
+.meals-showcase {
+   list-style: none;
+   width: 100%;
+   li {
+      float: left;
+      width: 25%;
+   }
+}
+
+.meal-photo {
+   width: 100%;
+   margin: 0;
+   overflow: hidden;
+   background-color: black;
+   img {
+      opacity: .7;
+      width: 100%;
+      height: auto;
+      transform: scale(1.15);
+      transition: transform .35s ease-in, opacity .35s ease-in;
+      &:hover {
+         opacity: 1;
+         transform: scale(1.03);
+      }
+   }
+}
