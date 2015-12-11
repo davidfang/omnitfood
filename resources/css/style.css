@@ -74,8 +74,6 @@ h1 {
 .btn:link,
 .btn:visited {
   display: inline-block;
-  margin-top: 1rem;
-  margin-right: .5rem;
   padding: .5rem 1.5rem;
   font-weight: 300;
   text-decoration: none;
@@ -354,4 +352,51 @@ cite img {
   border-radius: 50%;
   margin-right: 10px;
   vertical-align: middle;
+}
+/* line 1, _plans.less */
+.section-plans {
+  background-color: #ebebeb;
+}
+/* line 5, _plans.less */
+.plan-box {
+  background-color: white;
+  border: 1px solid #e67e22;
+  border-radius: 5px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 4px 4px #a7a7a7;
+}
+/* line 12, _plans.less */
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid #ebebeb;
+}
+/* line 16, _plans.less */
+.plan-box div:first-child {
+  background-color: #fcfcfc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* line 21, _plans.less */
+.plan-box div:last-child {
+  text-align: center;
+}
+/* line 24, _plans.less */
+.plan-box ul {
+  list-style: none;
+}
+/* line 26, _plans.less */
+.plan-box ul li {
+  padding: 5px 0;
+}
+/* line 32, _plans.less */
+.plan-price {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 100;
+  color: #e67e22;
+}
+/* line 37, _plans.less */
+.plan-price span {
+  font-size: 1rem;
 }
