@@ -448,3 +448,91 @@ input[type=submit]:hover {
 input[type=checkbox] {
   margin: 10px 5px 10px 0;
 }
+/* line 1, _footer.less */
+footer {
+  background-color: #333333;
+  padding: 2rem;
+}
+/* line 4, _footer.less */
+footer p {
+  color: #888888;
+  text-align: center;
+  font-size: .9rem;
+  margin-top: 2rem;
+}
+/* line 12, _footer.less */
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+/* line 15, _footer.less */
+.footer-nav li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+/* line 18, _footer.less */
+.footer-nav li:last-child {
+  margin-right: 0;
+}
+/* line 21, _footer.less */
+.footer-nav li a:link,
+.footer-nav li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888888;
+  -webkit-transition: color 0.35s ease-in;
+          transition: color 0.35s ease-in;
+}
+/* line 28, _footer.less */
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #dddddd;
+}
+/* line 35, _footer.less */
+.social-links {
+  list-style: none;
+  float: right;
+}
+/* line 38, _footer.less */
+.social-links li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+/* line 41, _footer.less */
+.social-links li:last-child {
+  margin-right: 0;
+}
+/* line 44, _footer.less */
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888888;
+  -webkit-transition: color 0.35s ease-in;
+          transition: color 0.35s ease-in;
+  font-size: 1.5rem;
+}
+/* line 55, _footer.less */
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+  -webkit-transition: color 0.35s ease-in;
+          transition: color 0.35s ease-in;
+}
+/* line 62, _footer.less */
+.ion-social-facebook:hover {
+  color: #3b5998;
+}
+/* line 66, _footer.less */
+.ion-social-twitter:hover {
+  color: #00aced;
+}
+/* line 70, _footer.less */
+.ion-social-googleplus:hover {
+  color: #dd4b39;
+}
+/* line 74, _footer.less */
+.ion-social-instagram:hover {
+  color: #517fa4;
+}
