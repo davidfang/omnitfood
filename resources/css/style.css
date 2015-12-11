@@ -9,31 +9,33 @@
   outline: none;
 }
 /* line 10, _basic.less */
-html {
+html,
+body {
   background-color: #ebebeb;
   color: #555555;
   font-family: 'Lato', 'Arial', sans-serif;
   font-size: 16px;
   font-weight: 900;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
-/* line 19, _basic.less */
+/* line 21, _basic.less */
 .row {
   max-width: 1140px;
   margin: 0 auto;
 }
-/* line 24, _basic.less */
+/* line 26, _basic.less */
 section {
   padding: 4rem 0;
 }
-/* line 28, _basic.less */
+/* line 30, _basic.less */
 h1,
 h2,
 h3 {
   font-weight: 100;
   letter-spacing: .15rem;
 }
-/* line 35, _basic.less */
+/* line 37, _basic.less */
 a:link,
 a:visited {
   color: #e67e22;
@@ -43,7 +45,7 @@ a:visited {
   -webkit-transition: border-bottom 0.35s ease-in, color 0.35s ease-in;
           transition: border-bottom 0.35s ease-in, color 0.35s ease-in;
 }
-/* line 44, _basic.less */
+/* line 46, _basic.less */
 a:hover,
 a:active {
   color: #555555;
@@ -61,7 +63,7 @@ header {
 h1 {
   margin: 0;
   color: #ebebeb;
-  font-size: 2.5rem;
+  font-size: 230%;
   font-weight: 200;
 }
 /* line 15, _header.less */
@@ -116,7 +118,7 @@ h1 {
 }
 /* line 67, _header.less */
 .logo {
-  height: 5.5rem;
+  height: 4rem;
   width: auto;
   float: left;
   margin-top: 1rem;
@@ -125,7 +127,7 @@ h1 {
 .main-nav {
   float: right;
   list-style: none;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
 }
 /* line 78, _header.less */
 .main-nav li {
@@ -365,7 +367,7 @@ cite img {
 .plan-box {
   background-color: white;
   border: 1px solid #e67e22;
-  border-radius: 5px;
+  border-radius: 8px;
   width: 90%;
   margin: 0 auto;
   box-shadow: 0 4px 4px #a7a7a7;
@@ -535,4 +537,144 @@ footer p {
 /* line 74, _footer.less */
 .ion-social-instagram:hover {
   color: #517fa4;
+}
+@media only screen and (max-width: 1200px) {
+  /* line 2, media/_extream.less */
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  /* line 6, media/_extream.less */
+  .row {
+    padding: 0 2%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 2, media/_large.less */
+  body {
+    font-size: 16px;
+  }
+  /* line 5, media/_large.less */
+  section {
+    padding: 60px 0;
+  }
+  /* line 8, media/_large.less */
+  .long-copy {
+    width: 80%;
+    margin-left: 15%;
+  }
+  /* line 12, media/_large.less */
+  .steps-box {
+    margin-top: 10px;
+  }
+  /* line 14, media/_large.less */
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+  /* line 18, media/_large.less */
+  .works-step {
+    margin-bottom: 40px;
+  }
+  /* line 20, media/_large.less */
+  .works-step:last-of-type {
+    margin-bottom: 60px;
+  }
+  /* line 24, media/_large.less */
+  .app-screen {
+    width: 50%;
+    position: relative;
+    top: -32px;
+  }
+  /* line 29, media/_large.less */
+  .icon-small {
+    width: 18px;
+    margin-right: 5px;
+  }
+  /* line 33, media/_large.less */
+  .city-feature {
+    font-size: 90%;
+  }
+  /* line 36, media/_large.less */
+  .plan-box {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* line 40, media/_large.less */
+  .plan-price {
+    font-size: 250%;
+  }
+  /* line 43, media/_large.less */
+  .contact-form {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 2, media/_middle.less */
+  body {
+    font-size: 14px;
+  }
+  /* line 5, media/_middle.less */
+  section {
+    padding: 30px 0;
+  }
+  /* line 8, media/_middle.less */
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  /* line 12, media/_middle.less */
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+  /* line 16, media/_middle.less */
+  .main-nav {
+    display: none;
+  }
+  /* line 19, media/_middle.less */
+  h1 {
+    font-size: 180%;
+  }
+  /* line 22, media/_middle.less */
+  h2 {
+    font-size: 150%;
+  }
+  /* line 25, media/_middle.less */
+  .long-copy {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* line 29, media/_middle.less */
+  .works-step {
+    margin-bottom: 20px;
+  }
+  /* line 31, media/_middle.less */
+  .works-step:last-of-type {
+    margin-bottom: 20px;
+  }
+  /* line 34, media/_middle.less */
+  .works-step div {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 120%;
+  }
+  /* line 41, media/_middle.less */
+  .steps-box:first-child {
+    text-align: center;
+  }
+  /* line 44, media/_middle.less */
+  .app-screen {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 2, media/_small.less */
+  section {
+    padding: 25px 0;
+  }
+  /* line 5, media/_small.less */
+  .contact-form {
+    width: 100%;
+  }
 }
