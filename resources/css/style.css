@@ -215,3 +215,62 @@ h3 {
       -ms-transform: scale(1.03);
           transform: scale(1.03);
 }
+/* line 32, _meals.less */
+.clearfix {
+  zoom: 1;
+}
+/* line 34, _meals.less */
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+/* line 1, _steps.less */
+.section-steps {
+  background-color: #f4f4f4;
+}
+/* line 6, _steps.less */
+.steps-box:first-child {
+  text-align: right;
+  padding-right: 3%;
+  margin-top: 2rem;
+}
+/* line 11, _steps.less */
+.steps-box:last-child {
+  padding-left: 3%;
+  margin-top: 4.5rem;
+}
+/* line 17, _steps.less */
+.app-screen {
+  width: 40%;
+}
+/* line 21, _steps.less */
+.works-step {
+  margin-bottom: 3rem;
+}
+/* line 23, _steps.less */
+.works-step div {
+  position: relative;
+  top: -0.5rem;
+  color: #e67e22;
+  border: 2px solid #e67e22;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  float: left;
+  margin-right: 1.5rem;
+}
+/* line 37, _steps.less */
+.works-step:last-of-type {
+  margin-bottom: 50px;
+}
+/* line 42, _steps.less */
+.btn img {
+  height: 3rem;
+  width: auto;
+}
