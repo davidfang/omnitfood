@@ -28,3 +28,18 @@ h3 {
    font-weight: 100;
    letter-spacing: .15rem;
 }
+
+a:link,
+a:visited {
+   color: @orange;
+   text-decoration: none;
+   padding-bottom: 1px;
+   border-bottom: 1px solid @orange;
+   transition: border-bottom .35s ease-in, color .35s ease-in
+}
+
+a:hover,
+a:active {
+   color: @gray;
+   border-bottom: 1px solid transparent;
+}

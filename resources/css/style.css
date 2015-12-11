@@ -29,6 +29,22 @@ h3 {
   font-weight: 100;
   letter-spacing: .15rem;
 }
+/* line 32, _basic.less */
+a:link,
+a:visited {
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  -webkit-transition: border-bottom 0.35s ease-in, color 0.35s ease-in;
+          transition: border-bottom 0.35s ease-in, color 0.35s ease-in;
+}
+/* line 41, _basic.less */
+a:hover,
+a:active {
+  color: #555555;
+  border-bottom: 1px solid transparent;
+}
 /* line 1, _header.less */
 header {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(../img/hero.jpg) center;
@@ -270,7 +286,37 @@ h3 {
   margin-bottom: 50px;
 }
 /* line 42, _steps.less */
-.btn img {
+.btn-app {
+  margin-right: 2rem;
+}
+/* line 43, _steps.less */
+.btn-app:link,
+.btn-app:visited {
+  border: 0;
+}
+/* line 47, _steps.less */
+.btn-app img {
   height: 3rem;
   width: auto;
+}
+/* line 1, _city.less */
+.box img {
+  width: 100%;
+  margin-bottom: 1rem;
+  height: auto;
+}
+/* line 7, _city.less */
+.city-feature {
+  margin-bottom: .3rem;
+}
+/* line 11, _city.less */
+.icon-small {
+  display: inline-block;
+  width: 2rem;
+  text-align: center;
+  color: #e67e22;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  vertical-align: middle;
+  margin-top: -2px;
 }
