@@ -9,7 +9,7 @@ html {
   background-color: #ebebeb;
   color: #555555;
   font-family: 'webfont' !important;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
 }
@@ -24,7 +24,8 @@ section {
 }
 /* line 25, _basic.less */
 h1,
-h2 {
+h2,
+h3 {
   font-weight: 100;
   letter-spacing: .15rem;
 }
@@ -40,8 +41,9 @@ h1 {
   margin: 0;
   color: #ebebeb;
   font-size: 2.5rem;
+  font-weight: 200;
 }
-/* line 13, _header.less */
+/* line 14, _header.less */
 .hero-text-box {
   width: 1140px;
   position: absolute;
@@ -51,7 +53,7 @@ h1 {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-/* line 22, _header.less */
+/* line 23, _header.less */
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -60,7 +62,6 @@ h1 {
   padding: .5rem 1.5rem;
   font-weight: 300;
   text-decoration: none;
-  letter-spacing: .1rem;
   border-radius: 10rem;
   color: #ebebeb;
   -webkit-transition: background-color 0.2s, color 0.2s, border 0.2s;
@@ -118,12 +119,12 @@ h1 {
   color: #ebebeb;
   padding: 8px;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 100;
   text-rendering: optimizeLegibility;
   border-bottom: 2px solid transparent;
-  -webkit-transition: border-bottom 0.2s;
-          transition: border-bottom 0.2s;
+  -webkit-transition: border-bottom 0.35s;
+          transition: border-bottom 0.35s;
 }
 /* line 91, _header.less */
 .main-nav li a:hover,
@@ -132,7 +133,7 @@ h1 {
 }
 /* line 1, _feature.less */
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-align: center;
   margin-bottom: 1.5rem;
 }
@@ -147,6 +148,30 @@ h2::after {
   margin-top: .5rem;
 }
 /* line 16, _feature.less */
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+/* line 21, _feature.less */
 .long-copy {
+  font-size: 1.1rem;
   line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+/* line 28, _feature.less */
+.box {
+  padding: 1px;
+}
+/* line 30, _feature.less */
+.box p {
+  font-size: 1rem;
+  line-height: 145%;
+}
+/* line 36, _feature.less */
+.icon-big {
+  font-size: 250%;
+  display: block;
+  color: #e67e22;
+  margin-bottom: 10px;
 }
