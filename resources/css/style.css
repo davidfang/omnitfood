@@ -4,32 +4,36 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* line 7, _basic.less */
+/* line 5, _basic.less */
+*:focus {
+  outline: none;
+}
+/* line 10, _basic.less */
 html {
   background-color: #ebebeb;
   color: #555555;
-  font-family: 'webfont' !important;
+  font-family: 'Lato', 'Arial', sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 900;
   text-rendering: optimizeLegibility;
 }
-/* line 16, _basic.less */
+/* line 19, _basic.less */
 .row {
   max-width: 1140px;
   margin: 0 auto;
 }
-/* line 21, _basic.less */
+/* line 24, _basic.less */
 section {
   padding: 4rem 0;
 }
-/* line 25, _basic.less */
+/* line 28, _basic.less */
 h1,
 h2,
 h3 {
   font-weight: 100;
   letter-spacing: .15rem;
 }
-/* line 32, _basic.less */
+/* line 35, _basic.less */
 a:link,
 a:visited {
   color: #e67e22;
@@ -39,7 +43,7 @@ a:visited {
   -webkit-transition: border-bottom 0.35s ease-in, color 0.35s ease-in;
           transition: border-bottom 0.35s ease-in, color 0.35s ease-in;
 }
-/* line 41, _basic.less */
+/* line 44, _basic.less */
 a:hover,
 a:active {
   color: #555555;
@@ -399,4 +403,48 @@ cite img {
 /* line 37, _plans.less */
 .plan-price span {
   font-size: 1rem;
+}
+/* line 1, _contact.less */
+.section-form {
+  background-color: white;
+}
+/* line 5, _contact.less */
+.contact-form {
+  padding: 30px 40px;
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #e67e22;
+  border-radius: 5px;
+  background-color: #ebebeb;
+}
+/* line 14, _contact.less */
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: .5rem;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+/* line 24, _contact.less */
+input[type=submit] {
+  display: inline-block;
+  padding: .5rem 1.5rem;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 10rem;
+  color: #ebebeb;
+  -webkit-transition: background-color 0.2s, color 0.2s, border 0.2s;
+          transition: background-color 0.2s, color 0.2s, border 0.2s;
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+}
+/* line 36, _contact.less */
+input[type=submit]:hover {
+  background-color: #cf6d17;
+}
+/* line 41, _contact.less */
+input[type=checkbox] {
+  margin: 10px 5px 10px 0;
 }
