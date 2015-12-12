@@ -14,7 +14,7 @@ body {
   background-color: #ebebeb;
   color: #555555;
   font-family: 'Lato', 'Arial', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 900;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
@@ -118,10 +118,10 @@ h1 {
 }
 /* line 67, _header.less */
 .logo {
-  height: 6rem;
+  height: 5rem;
   width: auto;
   float: left;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 /* line 74, _header.less */
 .logo-black {
@@ -148,7 +148,7 @@ h1 {
   color: #ebebeb;
   padding: 8px;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 100;
   text-rendering: optimizeLegibility;
   border-bottom: 2px solid transparent;
@@ -172,12 +172,12 @@ h1 {
 }
 /* line 115, _header.less */
 .sticky .main-nav {
-  margin-top: 1rem;
+  margin-top: 16px;
 }
 /* line 117, _header.less */
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
-  padding: 8px 0 16px 0;
+  padding: 8px 0 8px 0;
   color: #555555;
 }
 /* line 123, _header.less */
@@ -189,12 +189,16 @@ h1 {
   display: none;
 }
 /* line 1, _feature.less */
+.section-features {
+  box-shadow: 0 2px 1px rgba(238, 238, 238, 0.96) inset;
+}
+/* line 5, _feature.less */
 h2 {
   font-size: 1.8rem;
   text-align: center;
   margin-bottom: 1.5rem;
 }
-/* line 5, _feature.less */
+/* line 9, _feature.less */
 h2::after {
   content: '';
   width: 3rem;
@@ -204,12 +208,12 @@ h2::after {
   margin: 0 auto;
   margin-top: .5rem;
 }
-/* line 16, _feature.less */
+/* line 20, _feature.less */
 h3 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
-/* line 21, _feature.less */
+/* line 25, _feature.less */
 .long-copy {
   font-size: 1.1rem;
   line-height: 145%;
@@ -217,16 +221,16 @@ h3 {
   margin-left: 15%;
   margin-bottom: 1rem;
 }
-/* line 29, _feature.less */
+/* line 33, _feature.less */
 .box {
   padding: 1px;
 }
-/* line 31, _feature.less */
+/* line 35, _feature.less */
 .box p {
   font-size: 1rem;
   line-height: 145%;
 }
-/* line 37, _feature.less */
+/* line 41, _feature.less */
 .icon-big {
   font-size: 250%;
   display: block;
