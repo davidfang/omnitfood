@@ -118,23 +118,31 @@ h1 {
 }
 /* line 67, _header.less */
 .logo {
-  height: 4rem;
+  height: 6rem;
   width: auto;
   float: left;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 /* line 74, _header.less */
+.logo-black {
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 5px 0;
+  display: none;
+}
+/* line 82, _header.less */
 .main-nav {
   float: right;
   list-style: none;
-  margin-top: 2rem;
+  margin-top: 55px;
 }
-/* line 78, _header.less */
+/* line 86, _header.less */
 .main-nav li {
   display: inline-block;
   margin-left: 3rem;
 }
-/* line 81, _header.less */
+/* line 89, _header.less */
 .main-nav li a:link,
 .main-nav li a:visited {
   color: #ebebeb;
@@ -147,10 +155,38 @@ h1 {
   -webkit-transition: border-bottom 0.35s;
           transition: border-bottom 0.35s;
 }
-/* line 92, _header.less */
+/* line 100, _header.less */
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
+}
+/* line 107, _header.less */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 4px #d6d6d6;
+  z-index: 999;
+}
+/* line 115, _header.less */
+.sticky .main-nav {
+  margin-top: 1rem;
+}
+/* line 117, _header.less */
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 8px 0 16px 0;
+  color: #555555;
+}
+/* line 123, _header.less */
+.sticky .logo-black {
+  display: block;
+}
+/* line 126, _header.less */
+.sticky .logo {
+  display: none;
 }
 /* line 1, _feature.less */
 h2 {
