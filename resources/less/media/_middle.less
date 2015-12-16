@@ -13,9 +13,6 @@
       width: 100%;
       margin: 0 0 4% 0;
    }
-   .main-nav {
-      display: none;
-   }
    h1 {
       font-size: 180%;
    }
@@ -43,5 +40,33 @@
    }
    .app-screen {
       width: 40%;
+   }
+   //hanburge 
+   .mobile-nav-icon {
+      display: block;
+   }
+   .main-nav {
+      display: none;
+      margin-top: 5px;
+      li {
+         display: block;
+         a:link,
+         a:visited {
+            padding: 3px;
+            display: block;
+            border: 0;
+         }
+      }
+   }
+   .sticky {
+      .main-nav {
+         margin-top: 0;
+      }
+      .mobile-nav-icon {
+         margin-top: 5px;
+         i {
+            color: @gray;
+         }
+      }
    }
 }

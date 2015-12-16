@@ -6,7 +6,7 @@ header {
 }
 
 h1 {
-   margin: 0;
+   margin: 0 0 20px 0;
    color: @white;
    font-size: 230%;
    font-weight: 200;
@@ -83,11 +83,11 @@ h1 {
    float: right;
    list-style: none;
    margin-top: 55px;
-   & li {
+   li {
       display: inline-block;
       margin-left: 3rem;
-      & a:link,
-      & a:visited {
+      a:link,
+      a:visited {
          color: @white;
          padding: 8px;
          text-decoration: none;
@@ -97,8 +97,8 @@ h1 {
          border-bottom: 2px solid transparent;
          transition: border-bottom .35s;
       }
-      & a:hover,
-      & a:active {
+      a:hover,
+      a:active {
          border-bottom: 2px solid @orange;
       }
    }
@@ -125,5 +125,21 @@ h1 {
    }
    .logo {
       display: none;
+   }
+}
+
+.contain-nav {
+   display: inline-block;
+   float: right;
+}
+
+.mobile-nav-icon {
+   float: right;
+   margin-top: 20px;
+   cursor: pointer;
+   display: none;
+   i {
+      font-size: 200%;
+      color: white;
    }
 }
